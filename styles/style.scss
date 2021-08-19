@@ -458,3 +458,12 @@ $additionalColor: $white;
         }
     }
 }
+
+@media (max-width: 615px) {
+    .achievements {
+        &__partners {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
